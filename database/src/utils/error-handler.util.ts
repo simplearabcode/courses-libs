@@ -2,7 +2,7 @@
  * Prisma error handler utilities
  */
 
-import { ErrorCodes } from '@courses/shared';
+import { ErrorCodes } from '../../../shared/src';
 
 export interface PrismaError extends Error {
   code: string;

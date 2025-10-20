@@ -2,7 +2,7 @@
  * Base repository interface and implementation
  */
 
-import { IQueryOptions, IPagination } from '@courses/shared';
+import { IQueryOptions, IPagination } from '../../../shared/src';
 
 export interface IBaseRepository<T, CreateDTO, UpdateDTO> {
   findById(id: string): Promise<T | null>;

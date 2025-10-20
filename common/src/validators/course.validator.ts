@@ -2,7 +2,7 @@
  * Course-specific validation schemas for AJV/Fastify
  */
 
-import { CourseLevel, CourseStatus, CourseVisibility, LessonType } from '@courses/shared';
+import { CourseLevel, CourseStatus, CourseVisibility, LessonType } from '../../../shared/src';
 
 /**
  * Course creation schema

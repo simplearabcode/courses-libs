@@ -4,7 +4,7 @@
 
 import { FastifyError, FastifyReply, FastifyRequest } from 'fastify';
 import { AppError } from '../errors/app-error';
-import { IApiResponse } from '@courses/shared';
+import { IApiResponse } from '../../../shared/src';
 
 export function errorHandler(
   error: Error | FastifyError | AppError,

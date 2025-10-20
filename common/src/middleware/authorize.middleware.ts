@@ -4,7 +4,7 @@
 
 import { FastifyRequest, FastifyReply } from 'fastify';
 import { AuthorizationError } from '../errors/app-error';
-import { Role, hasPermission } from '@courses/shared';
+import { Role, hasPermission } from '../../../shared/src';
 
 /**
  * Require authentication

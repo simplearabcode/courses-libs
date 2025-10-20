@@ -2,7 +2,7 @@
  * Custom application error classes
  */
 
-import { ErrorCode, ErrorMessages } from '@courses/shared';
+import { ErrorCode, ErrorMessages } from '../../../shared/src';
 
 export class AppError extends Error {
   constructor(

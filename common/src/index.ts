@@ -2,7 +2,7 @@
 export * from './errors/app-error';
 
 // Re-export from shared for convenience
-export { ErrorCodes, ErrorMessages } from '@courses/shared';
+export { ErrorCodes, ErrorMessages } from '../../shared/src';
 
 // Middleware
 export * from './middleware/error-handler';

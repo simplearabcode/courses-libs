@@ -4,7 +4,7 @@
 
 import { FastifyRequest, FastifyReply } from 'fastify';
 import { AuthenticationError } from '../errors/app-error';
-import { ErrorCodes } from '@courses/shared';
+import { ErrorCodes } from '../../../shared/src';
 
 export interface AuthUser {
   id: string;

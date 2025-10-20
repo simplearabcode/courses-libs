@@ -3,7 +3,7 @@
  */
 
 import { BaseRepository, IBaseRepository } from '../repositories/base.repository';
-import { IQueryOptions } from '@courses/shared';
+import { IQueryOptions } from '../../../shared/src';
 
 export interface ISoftDeletable {
   deletedAt?: Date | null;

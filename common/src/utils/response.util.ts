@@ -2,7 +2,7 @@
  * Response builder utilities for consistent API responses
  */
 
-import { IApiResponse, IPaginatedResponse, IPagination } from '@courses/shared';
+import { IApiResponse, IPaginatedResponse, IPagination } from '../../../shared/src';
 
 /**
  * Build a success response
