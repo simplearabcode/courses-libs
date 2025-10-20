@@ -1,0 +1,30 @@
+# Source files
+*.ts
+!*.d.ts
+
+# Tests
+**/*.spec.ts
+**/*.test.ts
+*.spec.js
+*.test.js
+
+# Config files
+tsconfig.*.json
+.eslintrc*
+.prettierrc*
+jest.config.*
+
+# Development
+node_modules
+.nx
+.vscode
+.idea
+
+# Documentation (except main README)
+**/*-ANALYSIS.md
+**/*-SUMMARY.md
+**/*-STATUS.md
+
+# Logs
+*.log
+npm-debug.log*

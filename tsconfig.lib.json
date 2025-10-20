@@ -1,0 +1,30 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "ES2021",
+    "lib": ["ES2021"],
+    "types": ["node"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "composite": true,
+    "rootDir": "."
+  },
+  "include": [
+    "index.ts",
+    "common/src/**/*.ts",
+    "database/src/**/*.ts",
+    "events/src/**/*.ts",
+    "shared/src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "dist"
+  ]
+}
