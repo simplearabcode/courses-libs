@@ -1,6 +1,6 @@
 {
   "name": "@simplearabcode/courses-libs",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Shared libraries for Simple Arab Code courses platform",
   "author": "Simple Arab Code",
   "license": "MIT",
@@ -26,6 +26,14 @@
     "./shared": {
       "types": "./dist/shared/src/index.d.ts",
       "default": "./dist/shared/src/index.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "common": ["./dist/common/src/index.d.ts"],
+      "database": ["./dist/database/src/index.d.ts"],
+      "events": ["./dist/events/src/index.d.ts"],
+      "shared": ["./dist/shared/src/index.d.ts"]
     }
   },
   "files": [
